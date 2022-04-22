@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="uft-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="1">
-     <record model="academy.course" id="erp_101">
-         <field name="name"> ERP 11</field>
-         <field name="description">LEAR ERP Systems </field>
-         <field name="level">begingfner</field>
-     </record>
-        <record>
+    <data>
+        <record model="academy.course" id="erp_101">
+            <field name="name"> ERP 11</field>
+            <field name="description">LEAR ERP Systems </field>
+            <field name="level">beginner</field>
+        </record>
+        <record model="academy.course" id="accounting_200">
             <field name="name">Accouting 200</field>
             <field name="description">
-                Accounting 20:
-                Intermediate Accounting Course
-                Learning about Cost Accouting and pricing and Revenue Analysis.
+                    Accounting 20:
+                    Intermediate Accounting Course
+                    Learning about Cost Accouting and pricing and Revenue Analysis.
             </field>
             <field name="level"> intermediate</field>
         </record>
