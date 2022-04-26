@@ -5,7 +5,7 @@
                  <field name="name">academy.session.form</field>
                  <field name="model">academy.session</field>
                  <field name="arch" type="xml">
-                    <record strin="Session Form">
+                    <form string="Session Form">
                        <sheet>
                            <h1><field name="name"/></h1>
                            <group>
@@ -17,15 +17,15 @@
                            </group>
                                <notebook>
                                    <page string ="Students"/>
-                                     <field name="students_ids"/>
+                                     <field name="student_id"/>
                                </notebook>
                            </group>
                        </sheet>
-                    </record>
+                    </form>
                  </field>
-          </record>
-        <record model="ir.ui.view" id="sessions_view_form">
-            <field name="name">academy.session.form</field>
+         </record>
+        <record model="ir.ui.view" id="sessions_view_list">
+            <field name="name">academy.session.list</field>
             <field name="model">academy.session</field>
             <field name="arch" type="xml">
                 <tree string="Session List">

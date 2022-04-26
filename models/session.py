@@ -11,7 +11,7 @@ class Session(models.Model):
 
      name = fields.Char(string='Title',realated='course_id.name')
 
-     istructor_id = fields.Many2one(comodel_name='res.partner',string='Instructor')
+     instructor_id = fields.Many2one(comodel_name='res.partner',string='Instructor')
 
      student_id = fields.Many2one(comodel_name='res.partner', string='Students')
 
