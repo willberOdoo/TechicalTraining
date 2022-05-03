@@ -10,7 +10,7 @@ class SalesOrder(models.Model):
                                  ondelete='set null')
 
     instructor_id = fields.Many2one(string='Session Instructor',
-                                    ondelete='session_id.instructor_id')
+                                    relaed='session_id.instructor_id')
 
     student_ids = fields.Many2many(string='Students',
                                    related='session_id.student_ids')
